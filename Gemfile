@@ -5,6 +5,7 @@ gem 'rails', '3.2.13.rc2'
 group :development, :test do
 	gem 'sqlite3', '1.3.5'
 	gem 'rspec-rails', '2.12.0'
+	gem 'annotate', '~> 2.4.1.beta'
 end
 
 
@@ -40,7 +41,7 @@ end
 gem 'bootstrap-sass', '2.0.0'
 
 # To use ActiveModel has_secure_password
-# gem 'bcrypt-ruby', '~> 3.0.0'
+gem 'bcrypt-ruby', '~> 3.0.0'
 
 # To use Jbuilder templates for JSON
 # gem 'jbuilder'
