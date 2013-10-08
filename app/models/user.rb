@@ -11,8 +11,8 @@
 #
 
 class User < ActiveRecord::Base
-  attr_accessible :email, :name
-  attr_accessible :password, :password_confirmation
+#  attr_accessible :email, :name
+#  attr_accessible :password, :password_confirmation
   has_secure_password
 #  has_many :microposts
 
@@ -25,4 +25,10 @@ class User < ActiveRecord::Base
   VALID_EMAIL_REGEX = /\A[\w+\-.]+@[a-zA-Z\d\-]+(\.?[a-zA-Z\d\-]+)*\.[a-z]+\z/i
   validates :email, presence: true, format: { with: VALID_EMAIL_REGEX },
        uniqueness: { case_sensitive: false }
+end
+
+private
+
+def app_params
+params.require(:user).permit(:email, :name, :password, :password_confirmation)
 end
