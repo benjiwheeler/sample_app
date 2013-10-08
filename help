@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Ruby on Rails Tutorial Sample App | Help</title>
+    <link data-turbolinks-track="true" href="/assets/application.css?body=1" media="all" rel="stylesheet" type="text/css" />
+<link data-turbolinks-track="true" href="/assets/custom.css?body=1" media="all" rel="stylesheet" type="text/css" />
+<link data-turbolinks-track="true" href="/assets/microposts.css?body=1" media="all" rel="stylesheet" type="text/css" />
+<link data-turbolinks-track="true" href="/assets/scaffolds.css?body=1" media="all" rel="stylesheet" type="text/css" />
+<link data-turbolinks-track="true" href="/assets/static_pages.css?body=1" media="all" rel="stylesheet" type="text/css" />
+<link data-turbolinks-track="true" href="/assets/styles.css?body=1" media="all" rel="stylesheet" type="text/css" />
+<link data-turbolinks-track="true" href="/assets/users.css?body=1" media="all" rel="stylesheet" type="text/css" />
+    <script data-turbolinks-track="true" src="/assets/jquery.js?body=1" type="text/javascript"></script>
+<script data-turbolinks-track="true" src="/assets/jquery_ujs.js?body=1" type="text/javascript"></script>
+<script data-turbolinks-track="true" src="/assets/bootstrap-transition.js?body=1" type="text/javascript"></script>
+<script data-turbolinks-track="true" src="/assets/bootstrap-affix.js?body=1" type="text/javascript"></script>
+<script data-turbolinks-track="true" src="/assets/bootstrap-alert.js?body=1" type="text/javascript"></script>
+<script data-turbolinks-track="true" src="/assets/bootstrap-button.js?body=1" type="text/javascript"></script>
+<script data-turbolinks-track="true" src="/assets/bootstrap-carousel.js?body=1" type="text/javascript"></script>
+<script data-turbolinks-track="true" src="/assets/bootstrap-collapse.js?body=1" type="text/javascript"></script>
+<script data-turbolinks-track="true" src="/assets/bootstrap-dropdown.js?body=1" type="text/javascript"></script>
+<script data-turbolinks-track="true" src="/assets/bootstrap-modal.js?body=1" type="text/javascript"></script>
+<script data-turbolinks-track="true" src="/assets/bootstrap-scrollspy.js?body=1" type="text/javascript"></script>
+<script data-turbolinks-track="true" src="/assets/bootstrap-tab.js?body=1" type="text/javascript"></script>
+<script data-turbolinks-track="true" src="/assets/bootstrap-tooltip.js?body=1" type="text/javascript"></script>
+<script data-turbolinks-track="true" src="/assets/bootstrap-popover.js?body=1" type="text/javascript"></script>
+<script data-turbolinks-track="true" src="/assets/bootstrap-typeahead.js?body=1" type="text/javascript"></script>
+<script data-turbolinks-track="true" src="/assets/bootstrap.js?body=1" type="text/javascript"></script>
+<script data-turbolinks-track="true" src="/assets/microposts.js?body=1" type="text/javascript"></script>
+<script data-turbolinks-track="true" src="/assets/static_pages.js?body=1" type="text/javascript"></script>
+<script data-turbolinks-track="true" src="/assets/users.js?body=1" type="text/javascript"></script>
+<script data-turbolinks-track="true" src="/assets/application.js?body=1" type="text/javascript"></script>
+    <meta content="authenticity_token" name="csrf-param" />
+<meta content="QeKQskTA5Jk+ylj4HTZ5+mrCEZA8c564d+0wi4B1kC8=" name="csrf-token" />
+        <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+  </head>
+  <body>
+        <header class="navbar navbar-fixed-top navbar-inverse">
+      <div class="navbar-inner">
+        <div class="container">
+          <a href="/" id="logo">sample app</a>
+          <nav>
+            <ul class="nav pull-right">
+              <li><a href="/">Home</a></li>
+              <li><a href="/help">Help</a></li>
+              <li><a href="/signup">Sign up</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <div class="container">
+      <h1>Help</h1>
+<p>
+  Get help on the Ruby on Rails Tutorial at the
+  <a href="http://railstutorial.org/help">Rails Tutorial help page</a>.
+  To get help on this sample app, see the
+  <a href="http://railstutorial.org/book">Rails Tutorial book</a>.
+</p>
+
+      <footer class="footer">
+  <small>
+    <a href="http://railstutorial.org/">Rails Tutorial</a>
+    by Michael Hartl
+  </small>
+  <nav>
+    <ul>
+      <li><a href="/about">About</a></li>
+      <li><a href="/contact">Contact</a></li>
+      <li><a href="http://news.railstutorial.org/">News</a></li>
+    </ul>
+  </nav>
+</footer>
+
+      <pre class='debug_dump'>--- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+controller: static_pages
+action: help
+</pre>
+    </div>
+  </body>
+</html>
