@@ -9,6 +9,8 @@
 
 # ignore installed bundles
 /vendor/bundle
+# and executables
+/bin
 
 # Ignore the default SQLite database.
 /db/*.sqlite3
