@@ -1,12 +1,15 @@
 source 'https://rubygems.org'
 
-gem 'rails', '3.2.13.rc2'
+gem 'rails', '4.0.0'
+#gem 'rails', '3.2.13.rc2'
 
 group :development, :test do
-	gem 'sqlite3', '1.3.5'
+# for ruby 1.8.7
+#	gem 'sqlite3', '1.3.8'
+	gem 'sqlite3', '1.3.8'
 	gem 'rspec-rails', '2.12.0'
 	gem 'annotate', '~> 2.4.1.beta'
-	gem 'thin'
+	gem 'thin', '1.5.1'
 end
 
 
@@ -17,16 +20,20 @@ end
 
 # Gems used only for assets and not required
 # in production environments by default.
-group :assets do
-  gem 'sass-rails',   '3.2.4'
-  gem 'coffee-rails', '3.2.2'
-  gem 'uglifier', '1.2.3'
+#group :assets do
+# for ruby 1.8.7
+#  gem 'sass-rails',   '3.2.4'
+#  gem 'coffee-rails', '3.2.2'
+  gem 'sass-rails',   '~> 4.0.0'
+  gem 'coffee-rails', '~> 4.0.0'
+#  gem 'uglifier', '1.2.3'
 
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
   # gem 'therubyracer', :platforms => :ruby
 
-end
+#end
 
+gem 'figaro'
 gem 'jquery-rails', '2.0.2'
 
 

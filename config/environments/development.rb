@@ -7,7 +7,8 @@ SampleApp::Application.configure do
   config.cache_classes = false
 
   # Log error messages when you accidentally call methods on nil.
-  config.whiny_nils = true
+# deprecated in rails 4
+#  config.whiny_nils = true
 
   # Show full error reports and disable caching
   config.consider_all_requests_local       = true
@@ -36,4 +37,5 @@ SampleApp::Application.configure do
   config.assets.debug = true
 
   config.log_level = :debug
+  config.eager_load = false
 end
