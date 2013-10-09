@@ -48,7 +48,7 @@ group :production do
 end
 
 
-gem 'bootstrap-sass', '~> 2.3'
+gem 'bootstrap-sass', '~> 2.3.2.2'
 #gem 'bootstrap-sass', '2.0.0'
 
 # To use ActiveModel has_secure_password
